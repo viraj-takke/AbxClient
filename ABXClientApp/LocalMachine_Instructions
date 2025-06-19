@@ -1,0 +1,38 @@
+===========================
+Setup Instructions
+
+Step 1: Update Output File Path
+Open the Program.cs file.
+
+Find the line where the output file path is set.
+
+Replace the existing path with the full path to your desired physical folder.
+Example:
+@"C:\OldPath\output.json" → @"D:\YourFolder\JsonFile\output.json"
+
+
+Step 2: Connect to the TCP Server
+Open a terminal or command prompt.
+
+Navigate to the folder containing main.js:
+cd Yourpath\ABXClientApp\ABXClient\abx_exchange_server
+
+Run the following command:
+node main.js
+
+
+Step 3: Run the Project
+Start the project from your IDE or terminal.
+Example (from terminal):
+dotnet run
+
+
+Step 4: Verify the Output
+Go to the "JsonFile" folder specified in Step 1.
+
+Check if a JSON file has been created or updated.
+
+Open the file to inspect its contents.
+
+===========================
+End of Instructions
