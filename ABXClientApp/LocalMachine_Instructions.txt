@@ -1,0 +1,13 @@
+
+>> First, Replace the current output file path in the program.cs file with the path to your physical folder.
+
+>> Use the command "node main.js" to connect to the TCP server. Note: main.js file is located in folder "abx_exchange_server"
+
+>> Run the project.
+
+>> Examine the output of the JSON file in the "JsonFile" folder.
+
+
+
+
+                                  Thank You
